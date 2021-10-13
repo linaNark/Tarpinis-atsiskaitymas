@@ -38,7 +38,7 @@ img{
 }
 
 .hero-image{
-  background-image: url("/app/content/bg-masthead.jpg");
+  background-image: url("https://github.com/linaNark/Tarpinis-atsiskaitymas/blob/Master/app/content/bg-masthead.jpg?raw=true");
   background-color: #cccccc;
   height: 350px;
   background-position: center;
