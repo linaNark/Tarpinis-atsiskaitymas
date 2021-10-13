@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Lato', sans-serif;
+}
+
+.small-images{
+  height: 70%;
+  width: 70%;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.i-changed-my-mind-padding{
+  padding: 10%;
+}
+
+.row{
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero-image{
+  background-image: url("/app/content/bg-masthead.jpg");
+  background-color: #cccccc;
+  height: 350px;
+  background-position: center;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.header-text{
+  width:100%;
+  bottom:0;
+  padding-top: 100px;
+  text-align:center;
+}
+
+.signup-button{
+  max-height: 40px;
+}
+
+.signup-block{
+    padding-bottom: 200px;
+}
+
+.icon-color-Dodgerblue{
+     color: SkyBlue;
+     align: center;
+}
+
+.icons{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.icon{
+  flex-direction: column;
+  justify-content: space-evenly;
+  display:flex;
+  align-content: center;
+   align-items: center;
+}
+
+.text-align-center{
+  text-align:center
+}
+.icon-small-padding{
+  padding: 10px
+}
+
+nav,ul,a{
+  color: SkyBlue;
+  list-style-type: none;
+  text-decoration: none;
+  decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px
+}

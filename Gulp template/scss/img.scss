@@ -1,0 +1,47 @@
+$img-1: url(bg-masthead.jpg);
+$img-2: url(bg-showcase-1.jpg);
+$img-3: url(bg-showcase-2.jpg);
+$img-4: url(../images/img-4.jpg);
+
+.images {
+  width: 100%;
+  @include flex-center;
+  flex-wrap: wrap;
+  .img {
+    background: white;
+    margin: 20px;
+
+    &:nth-of-type(1){
+      background: $img-1;
+      @include img-format;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    &:nth-of-type(2){
+      background: $img-2;
+      @include img-format;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    &:nth-of-type(3){
+      background: $img-3;
+      @include img-format;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    &:nth-of-type(4){
+      background: $img-4;
+      @include img-format;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

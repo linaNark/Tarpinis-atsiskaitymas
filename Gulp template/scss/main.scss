@@ -1,0 +1,13 @@
+body {
+  height: 100vh + 20vh;
+  width: 100%;
+  @include flex-center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, $bg-color-1, $bg-color-2);
+  font-family: $text-font;
+  h1 {
+    color: $text-color;
+    font-size: 50px;
+    margin: 30px;
+  }
+}

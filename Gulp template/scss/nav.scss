@@ -1,0 +1,50 @@
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  background: pink;
+  line-height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  background: black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 50px;
+}
+
+#home {
+  background: orange;
+}
+
+
+#about {
+  background: cyan;
+}
+
+#contacts {
+  background: darkblue;
+}
+
+
+#faq {
+  background: crimson;
+}
